@@ -5,6 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="AlToque conecta tus antojos con restaurantes de tu zona y lleva tu comida hasta la puerta.">
   <title>AlToque | Tu comida, al toque</title>
+  <style>
+    #restaurantes article img {
+      display: block;
+      width: min(100%, 320px);
+      height: 200px;
+      object-fit: cover;
+    }
+  </style>
 </head>
 <body>
   <header id="inicio">
@@ -12,7 +20,7 @@
       <img src="assets/altoque-logo-crop.png" alt="AlToque" width="160" height="52">
     </a>
     <h1>Tu próximo antojo llega al toque</h1>
-    <p>Comida rica de tus lugares favoritos, directo a tu puerta.</p>
+    <p>La mejor comida de tus lugares favoritos, directo a tu puerta</p>
     <nav aria-label="Navegación principal">
       <ul>
         <li><a href="#inicio">Inicio</a></li>
@@ -41,23 +49,23 @@
     </section>
 
     <section id="restaurantes" aria-labelledby="restaurantes-titulo">
-      <h2 id="restaurantes-titulo">Elegí tu restaurante</h2>
+      <h2 id="restaurantes-titulo">Los más pedidos</h2>
       <p>Estos son los tres restaurantes más pedidos en AlToque.</p>
       <div>
-        <article data-tipo-comida="pizza helado sandwich">
-          <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Hamburguesa con lechuga y tomate" width="800" height="600">
+        <article data-tipo-comida="hamburguesas sandwich">
+          <img src="assets/mcdonalds.png" alt="Combo de hamburguesa, papas fritas y bebida de McDonald's" width="225" height="225">
           <h3>McDonald's</h3>
           <p>Hamburguesas, papas fritas y más.</p>
           <a href="#comidas">Ver restaurante</a>
         </article>
-        <article data-tipo-comida="empanadas pizza sandwich">
-          <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Pizza recién horneada con queso y vegetales" width="800" height="600">
+        <article data-tipo-comida="empanadas">
+          <img src="assets/mi-gusto.png" alt="Empanadas variadas de Mi Gusto" width="738" height="414">
           <h3>Mi Gusto</h3>
           <p>Empanadas, pizzas y opciones para compartir.</p>
           <a href="#comidas">Ver restaurante</a>
         </article>
-        <article data-tipo-comida="hamburguesas helado sandwich">
-          <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Hamburguesa con queso, lechuga y tomate" width="800" height="600">
+        <article data-tipo-comida="hamburguesas sandwich">
+          <img src="assets/mostaza.png" alt="Tres hamburguesas de Mostaza" width="734" height="418">
           <h3>Mostaza</h3>
           <p>Hamburguesas, papas fritas y sándwiches.</p>
           <a href="#comidas">Ver restaurante</a>
@@ -85,6 +93,7 @@
         <li><strong>Claro:</strong> consultá el estado de tu pedido mientras esperás.</li>
         <li><strong>A tu ritmo:</strong> elegí cuándo y qué querés disfrutar.</li>
       </ul>
+      <p>Más info en nuestro <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>.</p>
     </section>
   </main>
 
