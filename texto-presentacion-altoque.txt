@@ -1,0 +1,11 @@
+ALTOQUE: Texto de presentación
+
+Elegí AlToque, la cual es una propuesta de delivery de comida rápida. Decidí trabajar con esta idea porque pedir comida es algo cotidiano en mi rutina y quería diseñar una página clara para que las personas pudieran descubrir opciones de manera sencilla. El sitio está pensado para los que buscan resolver una comida o darse un gusto sin complicaciones.
+
+El objetivo de la página es presentar el servicio, explicar en pocos pasos cómo sería un pedido y mostrar restaurantes y tipos de comida disponibles. Organicé el contenido desde una introducción, seguí con el proceso de compra y después presenté los restaurantes en tarjetas. También agregué categorías para filtrar los restaurantes, hice una sección que resume la propuesta y un pie con contacto y créditos.
+
+Elegí el naranja porque transmite energía y se relaciona con una experiencia rápida y llamativa; lo combiné con tonos oscuros y cálidos para dar contraste y hacer que los títulos y botones se distingan. Usé una tipografía sans serif del sistema, fácil de leer en distintos dispositivos. Las imágenes muestran platos y productos de los restaurantes para que la oferta se entienda de un vistazo. Busqué un estilo más moderno y simple.
+
+Usé HTML para estructurar el contenido con etiquetas semánticas, CSS para definir los colores, las tarjetas y la adaptación responsive, y JavaScript para que las categorías filtren los restaurantes. Utilicé GitHub para guardar y actualizar los archivos y GitHub Pages para publicar el sitio y compartirlo mediante un enlace.
+
+Una de las dificultades fue acomodar las tarjetas en pantallas de distintos tamaños sin deformar las imágenes. La resolví usando reglas responsive, una fila deslizable en pantallas angostas y límites de tamaño para las tarjetas. Durante el proyecto aprendí a organizar una página con HTML, aplicar estilos con CSS, usar filtros sencillos y pensar el diseño para celular y computadora.
